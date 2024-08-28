@@ -1,3 +1,21 @@
 body {
     background-color: orange;
 }
+
+div {
+    border: 2px solid white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#headingTitle {
+    text-decoration: underline;
+}
+
+.basicStyle p {
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
