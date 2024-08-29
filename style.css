@@ -19,3 +19,39 @@ div {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
+
+.imgContainer {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-around;
+}
+
+.imgContainer img {
+    max-width: 300px;
+}
+
+.bgimg {
+    background-image: url('images/img_chania.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+table {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 2px solid #ddd;
+    text-align: left;
+    padding: 8px;
+    background-color: #96D4D4;
+    border-radius: 18px;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
